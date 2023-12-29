@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Gallery</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <style>
+    .card {
+      border-radius: 10px;
+    }
+    h6, p {
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
-</body>
-
-</html>
+<div class="container my-5">
+  <h2 class="text-center mb-4">Cards Gallery</h2>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <a href="Image1.jpg" data-lightbox="gallery" data-title="Description for Image 1">
+        <div class="card">
+          <img src
